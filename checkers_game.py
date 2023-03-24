@@ -420,7 +420,7 @@ def get_mouse_row_column(position):
     column = y//square_size
     return row, column
 
-
+# Main Function
 def main():
     running = True
     game = GameManager(display)
